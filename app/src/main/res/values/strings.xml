@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">BuyIt</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Buy It</string>
+    <string name="nav_header_subtitle">example@buyit.com</string>
+    <string name="nav_header_desc">Buy It Logo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Shopping Cart</string>
+    <string name="menu_gallery">Order History</string>
+    <string name="menu_products">List of Products</string>
+    <string name="menu_slideshow">Settings</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="password">Password:</string>
+    <string name="register_message">Don\'t have an account? Register!</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="login_message">Already have an account? Sign in!</string>
+    <string name="checkout">Checkout</string>
+
+    <!--    Settings-->
+    <string name="language">Language</string>
+    <string name="currency">Currency</string>
+    <string name="theme">Theme</string>
+    <string name="payment">Payment</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings_language_prompt">Select a language</string>
+    <string name="settings_currency_prompt">Select a currency</string>
+    <string name="settings_theme_prompt">Select a theme</string>
+    <string name="settings_payment_prompt">Select a payment method</string>
+    <string name="id_header">ID</string>
+    <string name="date_header">Date</string>
+    <string name="product_header">Product</string>
+    <string name="qty_header">Qty</string>
+    <string name="price_header">Price</string>
+    <string-array name="theme_list">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="payment_list">
+        <item>Credit Card</item>
+        <item>Cryptocurrency</item>
+        <item>Debit Card</item>
+    </string-array>
+
+    <string name="item_scanned">Item scanned</string>
+    <string name="invalid_tag_item">Invalid tag or item</string>
+    <string name="detect_text_fail">Failed to Detect Text</string>
+    <string name="scan_fail">Failed to Scan Item</string>
+</resources>

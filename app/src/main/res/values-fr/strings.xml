@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BuyIt</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="nav_header_title">Buy It</string>
+    <string name="nav_header_subtitle">example@buyit.com</string>
+    <string name="nav_header_desc">Buy It Logo</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="menu_home">Panier</string>
+    <string name="menu_gallery">Historique des achats</string>
+    <string name="menu_products">Liste de Produits</string>
+    <string name="menu_slideshow">Options</string>
+    <string name="menu_logout">Se déconnecter</string>
+
+    <string name="signup">S\'inscrire</string>
+    <string name="login">Connexion</string>
+    <string name="password">Mot de passe:</string>
+    <string name="register_message">Il n\'y a pas un compte avec cet couriel? S\'inscrire!</string>
+    <string name="confirm_password">Confirmez le mot de passe:</string>
+    <string name="login_message">Vous avez déjà un compte, s\'identifier!</string>
+    <string name="checkout">Payer</string>
+
+<!--    Settings-->
+    <string name="language">Langue</string>
+    <string name="currency">Devise</string>
+    <string name="theme">Thème</string>
+    <string name="payment">Paiement</string>
+    <string name="confirm">Confirmer</string>
+    <string name="cancel">Annuler</string>
+    <string name="settings_language_prompt">Choisir une langue</string>
+    <string name="settings_currency_prompt">Choisir une devise</string>
+    <string name="settings_theme_prompt">Choisir un thème</string>
+    <string name="settings_payment_prompt">Choisir un mode de paiement</string>
+    <string name="id_header">ID</string>
+    <string name="date_header">Date</string>
+    <string name="product_header">Produit</string>
+    <string name="qty_header">Qty</string>
+    <string name="price_header">Prix</string>
+    <string-array name="theme_list">
+        <item>Lumière</item>
+        <item>Sombre</item>
+    </string-array>
+    <string-array name="payment_list">
+        <item>Carte de crédit</item>
+        <item>Cryptomonnaie</item>
+        <item>Carte de débit</item>
+    </string-array>
+
+    <string name="item_scanned">Article scanné</string>
+    <string name="invalid_tag_item">Etiquette non valide</string>
+    <string name="detect_text_fail">Détection du texte a échoué</string>
+    <string name="scan_fail">Échec de l\'analyse de l\'élément</string>
+</resources>

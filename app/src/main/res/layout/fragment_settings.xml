@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/languageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        app:layout_constraintBottom_toBottomOf="@+id/languageImg"
+        app:layout_constraintStart_toEndOf="@+id/languageImg"
+        app:layout_constraintTop_toTopOf="@+id/languageImg" />
+
+
+    <ImageView
+        android:id="@+id/languageImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/ic_language" />
+
+    <TextView
+        android:id="@+id/currencyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/currency"
+        app:layout_constraintBottom_toBottomOf="@+id/currencyImg"
+        app:layout_constraintStart_toEndOf="@+id/currencyImg"
+        app:layout_constraintTop_toTopOf="@+id/currencyImg" />
+
+    <ImageView
+        android:id="@+id/currencyImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/languageImg"
+        app:layout_constraintTop_toBottomOf="@+id/languageImg"
+        tools:srcCompat="@drawable/ic_currency" />
+
+    <TextView
+        android:id="@+id/themeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/theme"
+        app:layout_constraintBottom_toBottomOf="@+id/themeImg"
+        app:layout_constraintStart_toEndOf="@+id/themeImg"
+        app:layout_constraintTop_toTopOf="@+id/themeImg" />
+
+    <ImageView
+        android:id="@+id/themeImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/currencyImg"
+        app:layout_constraintTop_toBottomOf="@+id/currencyImg"
+        tools:srcCompat="@drawable/ic_theme" />
+
+    <TextView
+        android:id="@+id/paymentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/payment"
+        app:layout_constraintBottom_toBottomOf="@+id/paymentImg"
+        app:layout_constraintStart_toEndOf="@+id/paymentImg"
+        app:layout_constraintTop_toTopOf="@+id/paymentImg" />
+
+    <ImageView
+        android:id="@+id/paymentImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="@+id/themeImg"
+        app:layout_constraintTop_toBottomOf="@+id/themeImg"
+        tools:srcCompat="@drawable/ic_payment" />
+</androidx.constraintlayout.widget.ConstraintLayout>
