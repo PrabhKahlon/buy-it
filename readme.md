@@ -43,7 +43,7 @@ Download the apk here: https://drive.google.com/file/d/1XCS96pY8oEemLvYOGcuoYIf-
 
 To run the application locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/PrabhKahlon/buy-it`
+1. Clone the repository: `git clone https://github.com/PrabhKahlon/buy-it.git`
 2. Open the folder with Android Studio
 3. Run the project using either the built-in android emulator or a connected android device
 
