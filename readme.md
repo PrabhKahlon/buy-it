@@ -39,7 +39,7 @@ The `app/src/main/res` directory contains resources such as images, XML layouts,
 
 ## Getting Started
 
-Download the apk here: https://drive.google.com/file/d/1XCS96pY8oEemLvYOGcuoYIf-MqpvYi7O/view?usp=sharing
+Download the apk here: https://github.com/PrabhKahlon/buy-it/releases/tag/APK
 
 To run the application locally, follow these steps:
 
